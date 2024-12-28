@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [user, setUser] = useState<String>("Ajay");
   return (
     <div className="App">
-      <h2>Hi there!</h2>
+      <h2>Hi {user}</h2>
     </div>
   );
 }
