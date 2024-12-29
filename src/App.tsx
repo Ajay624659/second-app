@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <h2>Hi {user}</h2>
+      <p>This change is done on branch2</p>
     </div>
   );
 }
