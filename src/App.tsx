@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [user, setUser] = useState<String>("Rajesh");
+  const [user, setUser] = useState<String>("Rajesh Saroha");
   return (
     <div className="App">
       <h2>Hi {user}</h2>
